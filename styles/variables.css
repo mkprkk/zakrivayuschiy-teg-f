@@ -1,1 +1,15 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --inter: 'Inter-Variable';
+    --press-start: 'Press Start 2P';
+
+    --inter-wght-h3: 700;
+    --inter-wght-text: 400;
+
+    --min-isize: 375px;
+    --max-isize: 700px;
+    --adaptive-inline-size: clamp(var(--min-isize), calc(260.625px + 30.5vw), var(--max-isize));
+    --adaptive-inline-size-footer: clamp(306px, 100%, 335px);
+
+    --card-gap: 25px;
+}

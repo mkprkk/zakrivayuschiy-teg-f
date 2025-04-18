@@ -9,11 +9,50 @@
     <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/animations.css" />
-    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png" />
   </head>
   <body class="page">
-    <header class="header"></header>
-    <main>   
+    <header class="header">
+      <h1 class="header__title">&lt;/html&gt;</h1>
+      <h2 class="header__subtitle">закрывающий тег</h2>
+    </header>
+    <main class="content">
+      <section class="cards">
+        <article class="card">
+          <h3 class="card__title">
+            Фритрек и нулевой спринт: Подготовка к работе
+          </h3>
+          <div class="card__image-container">
+            <img
+              class="card__image"
+              src="../images/car_camp.png"
+              alt="Пиксельная машина 1"
+            />
+            <p>&lt;/html&gt;</p>
+          </div>
+          <section class="card__content">
+            <p class="card__text">
+              Это было самое начало пути. На этом этапе важно было проникнуться
+              основами и настроиться на учёбу. И, возможно, подумать, как новые
+              знания могут повлиять на ваше будущее.
+            </p>
+            <p class="card__text">
+              Место для ваших воспоминаний о начале обучения.
+            </p>
+            <button class="card__like-button" type="button">like</button>
+          </section>
+        </article>
+      </section>
+      <footer class="footer">
+        <img
+          class="footer__floppy"
+          src="../svg/floppy.svg"
+          alt="Картинка дискеты"
+        />
+        <button class="footer__button" type="button">
+          Сохранить на память
+        </button>
+      </footer>
     </main>
     <script src="./scripts/like.js"></script>
   </body>
