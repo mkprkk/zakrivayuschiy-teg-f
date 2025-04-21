@@ -117,3 +117,44 @@
 .card__like-button:not(.is-liked):active svg .main-body {
   animation: main-body-active 0.2s steps(1) forwards;
 }
+
+/* ==================================================
+   АНИМАЦИЯ КНОПКИ
+   ================================================== */
+   .animated {
+    position: relative;
+  }
+
+  .animated > :where(:not(svg)) {
+    filter: brightness(1) invert(0);
+    transition: filter 0.5s ease-in-out;
+  }
+  
+  .animated:hover > :where(:not(svg))  {
+    filter: brightness(0) invert(1);
+  }
+  
+  .animated::before {
+    content: "";
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    transform: scaleX(0%);
+    position: absolute;
+    z-index: -1;
+    transform-origin: left;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .animated > :where(:not(svg)) {
+    filter: brightness(1) invert(0);
+    transition: filter 0.5s ease-in-out;
+  }
+  
+  .animated:hover > :where(:not(svg))  {
+    filter: brightness(0) invert(1);
+  }
+  
+  .animated:hover::before {
+    transform: scaleX(1);
+  }

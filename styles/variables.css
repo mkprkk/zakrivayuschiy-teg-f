@@ -3,13 +3,25 @@
     --inter: 'Inter-Variable';
     --press-start: 'Press Start 2P';
 
+    --background-image: 
+    repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0%, #1a1a1a 100%);
+  
+    --accent-color: #000000;
+    --background-color: #ffffff;
+    --text-stroke-color: #ffffff;
+    --text-shadow-color: rgba(128, 128, 128, 0.5);
+    --backdrop-color: rgba(0, 0, 0, 0.75);
+
     --inter-wght-h3: 700;
     --inter-wght-text: 400;
 
     --adaptive-inline-size: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
     --adaptive-inline-size-footer: clamp(19.125rem, 18.4868rem + 2.723vw, 20.9375rem);
 
-    --card-gap: 25px;
+    --card-gap: 50px;
+    --card--text-gap: 25px;
 
     --border: 2px solid #000;
 }
