@@ -6,10 +6,10 @@
     --inter-wght-h3: 700;
     --inter-wght-text: 400;
 
-    --min-isize: 375px;
-    --max-isize: 700px;
-    --adaptive-inline-size: clamp(var(--min-isize), calc(260.625px + 30.5vw), var(--max-isize));
-    --adaptive-inline-size-footer: clamp(306px, 100%, 335px);
+    --adaptive-inline-size: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
+    --adaptive-inline-size-footer: clamp(19.125rem, 18.4868rem + 2.723vw, 20.9375rem);
 
     --card-gap: 25px;
+
+    --border: 2px solid #000;
 }

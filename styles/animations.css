@@ -1,11 +1,119 @@
-/* Опишите в этом файле все keyframes для проекта и стили анимаций иконки Like.
+/* ================================
+   АНИМАЦИИ СЕРДЕЧКА
+   ================================ */
+@keyframes core-like {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: red;
+  }
+}
 
-Будьте внимательны! Для корректной работы скриптов на этом сайте нужно, чтобы в HTML некоторые классы были названы особым образом:
-✦ like-icon — для svg-иконки анимированного сердца
-✦ card__like-button — для кнопки Like рядом с иконкой
-✦ card__icon-button — для кнопки, оборачивающей иконку
-✦ card__icon-button — для кнопки, оборачивающей иконку
-✦ is-liked — для обозначения состояния лайкнутой иконки в виде сердца
-✦ button__text — для обозначения текстового элемента внутри кнопки
+@keyframes contour-like {
+  from {
+    fill: black;
+  }
+  to {
+    fill: red;
+  }
+}
 
-*/
+@keyframes main-body-like {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: red;
+  }
+}
+
+@keyframes heart-scale {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes sparks-like {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: red;
+  }
+}
+
+@keyframes core-hover {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: black;
+  }
+}
+
+@keyframes main-body-hover {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: black;
+  }
+}
+
+@keyframes main-body-active {
+  from {
+    fill: black;
+  }
+  to {
+    fill: red;
+  }
+}
+
+@keyframes core-active {
+  from {
+    fill: black;
+  }
+  to {
+    fill: red;
+  }
+}
+
+.heart {
+  transform-origin: center;
+}
+
+.card__like-button.is-liked svg .core {
+  animation: core-like 0.1s steps(1) 0.1s forwards;
+}
+.card__like-button.is-liked svg .contour {
+  animation: contour-like 0.1s steps(1) 0.2s forwards;
+}
+.card__like-button.is-liked svg .main-body {
+  animation: main-body-like 0.1s steps(1) 0.3s forwards;
+}
+.card__like-button.is-liked svg .sparks {
+  animation: sparks-like 0.1s 0.5s backwards;
+}
+.card__like-button.is-liked svg .heart {
+  animation: heart-scale 0.1s 0.4s backwards;
+}
+
+.card__like-button:not(.is-liked):hover svg .core {
+  animation: core-hover 0.1s steps(1) forwards;
+}
+
+.card__like-button:not(.is-liked):hover svg .main-body {
+  animation: main-body-hover 0.1s 0.1s steps(1) forwards;
+}
+
+.card__like-button:not(.is-liked):active svg .core {
+  animation: core-active 0.1s steps(1) forwards;
+}
+
+.card__like-button:not(.is-liked):active svg .main-body {
+  animation: main-body-active 0.2s steps(1) forwards;
+}
