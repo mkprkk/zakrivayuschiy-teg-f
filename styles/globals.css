@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+*:focus {
+  outline: none;
+}
+
 body {
   margin: 0;
 }
@@ -42,6 +46,16 @@ button {
   background-color: transparent;
   cursor: pointer;
   outline: none;
+}
+
+.button {
+  min-width: 130px;
+  min-height: 38px;
+  background-color: var(--background-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: var(--border, 2px solid var(--accent-color));
 }
 
 ul,

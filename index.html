@@ -14,15 +14,15 @@
   </head>
   <body class="page">
     <header class="header">
-      <h1 class="header__title">&lt;/html&gt;</h1>
-      <h2 class="header__subtitle">закрывающий тег</h2>
+      <logo class="header__title">&lt;/html&gt;</logo>
+      <h1 class="header__subtitle">закрывающий тег</h1>
     </header>
     <main class="content">
       <section class="cards">
         <article class="card">
-          <h3 class="card__title">
+          <h2 class="card__title">
             Фритрек и нулевой спринт: Подготовка к работе
-          </h3>
+          </h2>
           <div class="card__image-container">
             <img
               class="card__image"
@@ -31,7 +31,7 @@
             />
             <p>&lt;/HTML&gt;</p>
           </div>
-          <section class="card__content">
+          <div class="card__content">
             <p class="card__text">
               Это было самое начало пути. На этом этапе важно было проникнуться
               основами и настроиться на учёбу. И, возможно, подумать, как новые
@@ -42,101 +42,105 @@
               программированием самостоятельно на python, и поэтому легко
               двигался вперёд.
             </p>
-            <button class="card__like-button animated" type="button">
-              <span class="button__text">Like</span>
-              <svg
-                class="card__like-icon"
-                width="39"
-                height="36"
-                viewBox="0 0 39 36"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-              >
-                <g class="heart">
+            <div class="card__like-container">
+              <button class="card__icon-button" type="button">
+                <svg
+                  class="card__like-icon"
+                  width="39"
+                  height="36"
+                  viewBox="0 0 39 36"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                >
+                  <g class="heart">
+                    <path
+                      class="contour"
+                      d="M12
+      6H9V9H12V6ZM15 
+      6H12V9H15V6ZM9 
+      9H6V12H9V9ZM9 
+      12H6V15H9V12ZM9 
+      15H6V18H9V15ZM18 
+      6H15V9H18V6ZM12 
+      18H9V21H12V18ZM15 
+      21H12V24H15V21ZM18 
+      24H15V27H18V24ZM27 
+      6H30V9H27V6ZM24 
+      6H27V9H24V6ZM30 
+      9H33V12H30V9ZM30 
+      12H33V15H30V12ZM30 
+      15H33V18H30V15ZM21 
+      6H24V9H21V6ZM27 
+      18H30V21H27V18ZM24 
+      21H27V24H24V21ZM21 
+      24H24V27H21V24ZM21 
+      27H18V30H21V27ZM21 
+      9H18V12H21V9Z"
+                      fill="black"
+                    />
+                    <path
+                      class="main-body"
+                      d="M12 
+      9H9V12H12V9ZM15 
+      12H12V15H15V12ZM18 
+      9H15V12H18V9ZM12 
+      15H9V18H12V15ZM15 
+      15H12V18H15V15ZM15 
+      18H12V21H15V18ZM18 
+      12H15V15H18V12ZM18 
+      21H15V24H18V21ZM18 
+      18H15V21H18V18ZM27 
+      9H30V12H27V9ZM24 
+      9H27V12H24V9ZM27 
+      12H30V15H27V12ZM24 
+      12H27V15H24V12ZM21 
+      9H24V12H21V9ZM27 
+      15H30V18H27V15ZM24 
+      15H27V18H24V15ZM24 
+      18H27V21H24V18ZM21 
+      12H24V15H21V12ZM21 
+      21H24V24H21V21ZM21 
+      18H24V21H21V18ZM21 
+      21H18V24H21V21ZM21 
+      24H18V27H21V24Z"
+                      fill="transparent"
+                    />
+                    <path
+                      class="core"
+                      d="M18 
+      15H15V18H18V15ZM21 
+      15H24V18H21V15ZM21 
+      15H18V18H21V15ZM21 
+      12H18V15H21V12ZM21 
+      18H18V21H21V18Z"
+                      fill="transparent"
+                    />
+                  </g>
                   <path
-                    class="contour"
-                    d="M12
-        6H9V9H12V6ZM15 
-        6H12V9H15V6ZM9 
-        9H6V12H9V9ZM9 
-        12H6V15H9V12ZM9 
-        15H6V18H9V15ZM18 
-        6H15V9H18V6ZM12 
-        18H9V21H12V18ZM15 
-        21H12V24H15V21ZM18 
-        24H15V27H18V24ZM27 
-        6H30V9H27V6ZM24 
-        6H27V9H24V6ZM30 
-        9H33V12H30V9ZM30 
-        12H33V15H30V12ZM30 
-        15H33V18H30V15ZM21 
-        6H24V9H21V6ZM27 
-        18H30V21H27V18ZM24 
-        21H27V24H24V21ZM21 
-        24H24V27H21V24ZM21 
-        27H18V30H21V27ZM21 
-        9H18V12H21V9Z"
-                    fill="black"
-                  />
-                  <path
-                    class="main-body"
-                    d="M12 
-        9H9V12H12V9ZM15 
-        12H12V15H15V12ZM18 
-        9H15V12H18V9ZM12 
-        15H9V18H12V15ZM15 
-        15H12V18H15V15ZM15 
-        18H12V21H15V18ZM18 
-        12H15V15H18V12ZM18 
-        21H15V24H18V21ZM18 
-        18H15V21H18V18ZM27 
-        9H30V12H27V9ZM24 
-        9H27V12H24V9ZM27 
-        12H30V15H27V12ZM24 
-        12H27V15H24V12ZM21 
-        9H24V12H21V9ZM27 
-        15H30V18H27V15ZM24 
-        15H27V18H24V15ZM24 
-        18H27V21H24V18ZM21 
-        12H24V15H21V12ZM21 
-        21H24V24H21V21ZM21 
-        18H24V21H21V18ZM21 
-        21H18V24H21V21ZM21 
-        24H18V27H21V24Z"
+                    class="sparks"
+                    d="M36 
+      13H39V16H36V13ZM27
+      27H30V30H27V27ZM18 
+      33H21V36H18V33ZM9 
+      27H12V30H9V27ZM24 
+      0H27V3H24V0ZM33 
+      3H36V6H33V3ZM3 
+      3H6V6H3V3ZM12 
+      0H15V3H12V0ZM0 
+      13H3V16H0V13Z"
                     fill="transparent"
                   />
-                  <path
-                    class="core"
-                    d="M18 
-        15H15V18H18V15ZM21 
-        15H24V18H21V15ZM21 
-        15H18V18H21V15ZM21 
-        12H18V15H21V12ZM21 
-        18H18V21H21V18Z"
-                    fill="transparent"
-                  />
-                </g>
-                <path
-                  class="sparks"
-                  d="M36 
-        13H39V16H36V13ZM27
-        27H30V30H27V27ZM18 
-        33H21V36H18V33ZM9 
-        27H12V30H9V27ZM24 
-        0H27V3H24V0ZM33 
-        3H36V6H33V3ZM3 
-        3H6V6H3V3ZM12 
-        0H15V3H12V0ZM0 
-        13H3V16H0V13Z"
-                  fill="transparent"
-                />
-              </svg>
-            </button>
-          </section>
+                </svg>
+              </button>
+              <button class="button card__like-button animated" type="button">
+                <span class="button__text">Like</span>
+              </button>
+            </div>
+          </div>
         </article>
         <article class="card">
-          <h3 class="card__title">1 спринт: Я — чистый лист</h3>
+          <h2 class="card__title">1 спринт: Я — чистый лист</h2>
           <div class="card__image-container">
             <img
               class="card__image blur"
@@ -145,7 +149,7 @@
             />
             <p>&lt;/HTML&gt;</p>
           </div>
-          <section class="card__content">
+          <div class="card__content">
             <p class="card__text">
               На первых этапах мы работали со страхами и сомнениями, которые
               часто испытывают новички. Один из них — страх перед чистым листом.
@@ -158,101 +162,105 @@
               Да что уж, и сейчас её особо нет. Просто теперь требуется
               запоминать гораздо больше и делать соответственно тоже.
             </p>
-            <button class="card__like-button animated" type="button">
-              <span class="button__text">Like</span>
-              <svg
-                class="card__like-icon"
-                width="39"
-                height="36"
-                viewBox="0 0 39 36"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-              >
-                <g class="heart">
+            <div class="card__like-container">
+              <button class="card__icon-button" type="button">
+                <svg
+                  class="card__like-icon"
+                  width="39"
+                  height="36"
+                  viewBox="0 0 39 36"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                >
+                  <g class="heart">
+                    <path
+                      class="contour"
+                      d="M12
+      6H9V9H12V6ZM15 
+      6H12V9H15V6ZM9 
+      9H6V12H9V9ZM9 
+      12H6V15H9V12ZM9 
+      15H6V18H9V15ZM18 
+      6H15V9H18V6ZM12 
+      18H9V21H12V18ZM15 
+      21H12V24H15V21ZM18 
+      24H15V27H18V24ZM27 
+      6H30V9H27V6ZM24 
+      6H27V9H24V6ZM30 
+      9H33V12H30V9ZM30 
+      12H33V15H30V12ZM30 
+      15H33V18H30V15ZM21 
+      6H24V9H21V6ZM27 
+      18H30V21H27V18ZM24 
+      21H27V24H24V21ZM21 
+      24H24V27H21V24ZM21 
+      27H18V30H21V27ZM21 
+      9H18V12H21V9Z"
+                      fill="black"
+                    />
+                    <path
+                      class="main-body"
+                      d="M12 
+      9H9V12H12V9ZM15 
+      12H12V15H15V12ZM18 
+      9H15V12H18V9ZM12 
+      15H9V18H12V15ZM15 
+      15H12V18H15V15ZM15 
+      18H12V21H15V18ZM18 
+      12H15V15H18V12ZM18 
+      21H15V24H18V21ZM18 
+      18H15V21H18V18ZM27 
+      9H30V12H27V9ZM24 
+      9H27V12H24V9ZM27 
+      12H30V15H27V12ZM24 
+      12H27V15H24V12ZM21 
+      9H24V12H21V9ZM27 
+      15H30V18H27V15ZM24 
+      15H27V18H24V15ZM24 
+      18H27V21H24V18ZM21 
+      12H24V15H21V12ZM21 
+      21H24V24H21V21ZM21 
+      18H24V21H21V18ZM21 
+      21H18V24H21V21ZM21 
+      24H18V27H21V24Z"
+                      fill="transparent"
+                    />
+                    <path
+                      class="core"
+                      d="M18 
+      15H15V18H18V15ZM21 
+      15H24V18H21V15ZM21 
+      15H18V18H21V15ZM21 
+      12H18V15H21V12ZM21 
+      18H18V21H21V18Z"
+                      fill="transparent"
+                    />
+                  </g>
                   <path
-                    class="contour"
-                    d="M12
-        6H9V9H12V6ZM15 
-        6H12V9H15V6ZM9 
-        9H6V12H9V9ZM9 
-        12H6V15H9V12ZM9 
-        15H6V18H9V15ZM18 
-        6H15V9H18V6ZM12 
-        18H9V21H12V18ZM15 
-        21H12V24H15V21ZM18 
-        24H15V27H18V24ZM27 
-        6H30V9H27V6ZM24 
-        6H27V9H24V6ZM30 
-        9H33V12H30V9ZM30 
-        12H33V15H30V12ZM30 
-        15H33V18H30V15ZM21 
-        6H24V9H21V6ZM27 
-        18H30V21H27V18ZM24 
-        21H27V24H24V21ZM21 
-        24H24V27H21V24ZM21 
-        27H18V30H21V27ZM21 
-        9H18V12H21V9Z"
-                    fill="black"
-                  />
-                  <path
-                    class="main-body"
-                    d="M12 
-        9H9V12H12V9ZM15 
-        12H12V15H15V12ZM18 
-        9H15V12H18V9ZM12 
-        15H9V18H12V15ZM15 
-        15H12V18H15V15ZM15 
-        18H12V21H15V18ZM18 
-        12H15V15H18V12ZM18 
-        21H15V24H18V21ZM18 
-        18H15V21H18V18ZM27 
-        9H30V12H27V9ZM24 
-        9H27V12H24V9ZM27 
-        12H30V15H27V12ZM24 
-        12H27V15H24V12ZM21 
-        9H24V12H21V9ZM27 
-        15H30V18H27V15ZM24 
-        15H27V18H24V15ZM24 
-        18H27V21H24V18ZM21 
-        12H24V15H21V12ZM21 
-        21H24V24H21V21ZM21 
-        18H24V21H21V18ZM21 
-        21H18V24H21V21ZM21 
-        24H18V27H21V24Z"
+                    class="sparks"
+                    d="M36 
+      13H39V16H36V13ZM27
+      27H30V30H27V27ZM18 
+      33H21V36H18V33ZM9 
+      27H12V30H9V27ZM24 
+      0H27V3H24V0ZM33 
+      3H36V6H33V3ZM3 
+      3H6V6H3V3ZM12 
+      0H15V3H12V0ZM0 
+      13H3V16H0V13Z"
                     fill="transparent"
                   />
-                  <path
-                    class="core"
-                    d="M18 
-        15H15V18H18V15ZM21 
-        15H24V18H21V15ZM21 
-        15H18V18H21V15ZM21 
-        12H18V15H21V12ZM21 
-        18H18V21H21V18Z"
-                    fill="transparent"
-                  />
-                </g>
-                <path
-                  class="sparks"
-                  d="M36 
-        13H39V16H36V13ZM27
-        27H30V30H27V27ZM18 
-        33H21V36H18V33ZM9 
-        27H12V30H9V27ZM24 
-        0H27V3H24V0ZM33 
-        3H36V6H33V3ZM3 
-        3H6V6H3V3ZM12 
-        0H15V3H12V0ZM0 
-        13H3V16H0V13Z"
-                  fill="transparent"
-                />
-              </svg>
-            </button>
-          </section>
+                </svg>
+              </button>
+              <button class="button card__like-button animated" type="button">
+                <span class="button__text">Like</span>
+              </button>
+            </div>
+          </div>
         </article>
         <article class="card">
-          <h3 class="card__title">1 спринт: А если не получится?</h3>
+          <h2 class="card__title">1 спринт: А если не получится?</h2>
           <div class="card__image-container">
             <img
               class="card__image sepia"
@@ -261,7 +269,7 @@
             />
             <p>&lt;CSS&gt;</p>
           </div>
-          <section class="card__content">
+          <div class="card__content">
             <p class="card__text">
               Первый проект — позади! Но это всё ещё самое начало пути. Радость
               могла быстро померкнуть и смениться ожиданием провала. Или вы,
@@ -272,101 +280,105 @@
               здорово ощущать, что мне стали доступны новые знания, а особенно,
               в самом популярном направлении в IT-сфере.
             </p>
-            <button class="card__like-button animated" type="button">
-              <span class="button__text">Like</span>
-              <svg
-                class="card__like-icon"
-                width="39"
-                height="36"
-                viewBox="0 0 39 36"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-              >
-                <g class="heart">
+            <div class="card__like-container">
+              <button class="card__icon-button" type="button">
+                <svg
+                  class="card__like-icon"
+                  width="39"
+                  height="36"
+                  viewBox="0 0 39 36"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                >
+                  <g class="heart">
+                    <path
+                      class="contour"
+                      d="M12
+      6H9V9H12V6ZM15 
+      6H12V9H15V6ZM9 
+      9H6V12H9V9ZM9 
+      12H6V15H9V12ZM9 
+      15H6V18H9V15ZM18 
+      6H15V9H18V6ZM12 
+      18H9V21H12V18ZM15 
+      21H12V24H15V21ZM18 
+      24H15V27H18V24ZM27 
+      6H30V9H27V6ZM24 
+      6H27V9H24V6ZM30 
+      9H33V12H30V9ZM30 
+      12H33V15H30V12ZM30 
+      15H33V18H30V15ZM21 
+      6H24V9H21V6ZM27 
+      18H30V21H27V18ZM24 
+      21H27V24H24V21ZM21 
+      24H24V27H21V24ZM21 
+      27H18V30H21V27ZM21 
+      9H18V12H21V9Z"
+                      fill="black"
+                    />
+                    <path
+                      class="main-body"
+                      d="M12 
+      9H9V12H12V9ZM15 
+      12H12V15H15V12ZM18 
+      9H15V12H18V9ZM12 
+      15H9V18H12V15ZM15 
+      15H12V18H15V15ZM15 
+      18H12V21H15V18ZM18 
+      12H15V15H18V12ZM18 
+      21H15V24H18V21ZM18 
+      18H15V21H18V18ZM27 
+      9H30V12H27V9ZM24 
+      9H27V12H24V9ZM27 
+      12H30V15H27V12ZM24 
+      12H27V15H24V12ZM21 
+      9H24V12H21V9ZM27 
+      15H30V18H27V15ZM24 
+      15H27V18H24V15ZM24 
+      18H27V21H24V18ZM21 
+      12H24V15H21V12ZM21 
+      21H24V24H21V21ZM21 
+      18H24V21H21V18ZM21 
+      21H18V24H21V21ZM21 
+      24H18V27H21V24Z"
+                      fill="transparent"
+                    />
+                    <path
+                      class="core"
+                      d="M18 
+      15H15V18H18V15ZM21 
+      15H24V18H21V15ZM21 
+      15H18V18H21V15ZM21 
+      12H18V15H21V12ZM21 
+      18H18V21H21V18Z"
+                      fill="transparent"
+                    />
+                  </g>
                   <path
-                    class="contour"
-                    d="M12
-        6H9V9H12V6ZM15 
-        6H12V9H15V6ZM9 
-        9H6V12H9V9ZM9 
-        12H6V15H9V12ZM9 
-        15H6V18H9V15ZM18 
-        6H15V9H18V6ZM12 
-        18H9V21H12V18ZM15 
-        21H12V24H15V21ZM18 
-        24H15V27H18V24ZM27 
-        6H30V9H27V6ZM24 
-        6H27V9H24V6ZM30 
-        9H33V12H30V9ZM30 
-        12H33V15H30V12ZM30 
-        15H33V18H30V15ZM21 
-        6H24V9H21V6ZM27 
-        18H30V21H27V18ZM24 
-        21H27V24H24V21ZM21 
-        24H24V27H21V24ZM21 
-        27H18V30H21V27ZM21 
-        9H18V12H21V9Z"
-                    fill="black"
-                  />
-                  <path
-                    class="main-body"
-                    d="M12 
-        9H9V12H12V9ZM15 
-        12H12V15H15V12ZM18 
-        9H15V12H18V9ZM12 
-        15H9V18H12V15ZM15 
-        15H12V18H15V15ZM15 
-        18H12V21H15V18ZM18 
-        12H15V15H18V12ZM18 
-        21H15V24H18V21ZM18 
-        18H15V21H18V18ZM27 
-        9H30V12H27V9ZM24 
-        9H27V12H24V9ZM27 
-        12H30V15H27V12ZM24 
-        12H27V15H24V12ZM21 
-        9H24V12H21V9ZM27 
-        15H30V18H27V15ZM24 
-        15H27V18H24V15ZM24 
-        18H27V21H24V18ZM21 
-        12H24V15H21V12ZM21 
-        21H24V24H21V21ZM21 
-        18H24V21H21V18ZM21 
-        21H18V24H21V21ZM21 
-        24H18V27H21V24Z"
+                    class="sparks"
+                    d="M36 
+      13H39V16H36V13ZM27
+      27H30V30H27V27ZM18 
+      33H21V36H18V33ZM9 
+      27H12V30H9V27ZM24 
+      0H27V3H24V0ZM33 
+      3H36V6H33V3ZM3 
+      3H6V6H3V3ZM12 
+      0H15V3H12V0ZM0 
+      13H3V16H0V13Z"
                     fill="transparent"
                   />
-                  <path
-                    class="core"
-                    d="M18 
-        15H15V18H18V15ZM21 
-        15H24V18H21V15ZM21 
-        15H18V18H21V15ZM21 
-        12H18V15H21V12ZM21 
-        18H18V21H21V18Z"
-                    fill="transparent"
-                  />
-                </g>
-                <path
-                  class="sparks"
-                  d="M36 
-        13H39V16H36V13ZM27
-        27H30V30H27V27ZM18 
-        33H21V36H18V33ZM9 
-        27H12V30H9V27ZM24 
-        0H27V3H24V0ZM33 
-        3H36V6H33V3ZM3 
-        3H6V6H3V3ZM12 
-        0H15V3H12V0ZM0 
-        13H3V16H0V13Z"
-                  fill="transparent"
-                />
-              </svg>
-            </button>
-          </section>
+                </svg>
+              </button>
+              <button class="button card__like-button animated" type="button">
+                <span class="button__text">Like</span>
+              </button>
+            </div>
+          </div>
         </article>
         <article class="card">
-          <h3 class="card__title">2 спринт: Погоня за идеалом</h3>
+          <h2 class="card__title">2 спринт: Погоня за идеалом</h2>
           <div class="card__image-container">
             <img
               class="card__image contrast"
@@ -375,7 +387,7 @@
             />
             <p>&lt;desigions&gt;</p>
           </div>
-          <section class="card__content">
+          <div class="card__content">
             <p class="card__text">
               На этом этапе вы уже достаточно разбирались в основах вёрстки,
               чтобы понять, как много ещё впереди. Вы могли попытаться погнаться
@@ -388,101 +400,105 @@
               появились новые элементы, новая информация. Но, всё же,
               большинство справилось, а вместе с ними и я.
             </p>
-            <button class="card__like-button animated" type="button">
-              <span class="button__text">Like</span>
-              <svg
-                class="card__like-icon"
-                width="39"
-                height="36"
-                viewBox="0 0 39 36"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-              >
-                <g class="heart">
+            <div class="card__like-container">
+              <button class="card__icon-button" type="button">
+                <svg
+                  class="card__like-icon"
+                  width="39"
+                  height="36"
+                  viewBox="0 0 39 36"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                >
+                  <g class="heart">
+                    <path
+                      class="contour"
+                      d="M12
+      6H9V9H12V6ZM15 
+      6H12V9H15V6ZM9 
+      9H6V12H9V9ZM9 
+      12H6V15H9V12ZM9 
+      15H6V18H9V15ZM18 
+      6H15V9H18V6ZM12 
+      18H9V21H12V18ZM15 
+      21H12V24H15V21ZM18 
+      24H15V27H18V24ZM27 
+      6H30V9H27V6ZM24 
+      6H27V9H24V6ZM30 
+      9H33V12H30V9ZM30 
+      12H33V15H30V12ZM30 
+      15H33V18H30V15ZM21 
+      6H24V9H21V6ZM27 
+      18H30V21H27V18ZM24 
+      21H27V24H24V21ZM21 
+      24H24V27H21V24ZM21 
+      27H18V30H21V27ZM21 
+      9H18V12H21V9Z"
+                      fill="black"
+                    />
+                    <path
+                      class="main-body"
+                      d="M12 
+      9H9V12H12V9ZM15 
+      12H12V15H15V12ZM18 
+      9H15V12H18V9ZM12 
+      15H9V18H12V15ZM15 
+      15H12V18H15V15ZM15 
+      18H12V21H15V18ZM18 
+      12H15V15H18V12ZM18 
+      21H15V24H18V21ZM18 
+      18H15V21H18V18ZM27 
+      9H30V12H27V9ZM24 
+      9H27V12H24V9ZM27 
+      12H30V15H27V12ZM24 
+      12H27V15H24V12ZM21 
+      9H24V12H21V9ZM27 
+      15H30V18H27V15ZM24 
+      15H27V18H24V15ZM24 
+      18H27V21H24V18ZM21 
+      12H24V15H21V12ZM21 
+      21H24V24H21V21ZM21 
+      18H24V21H21V18ZM21 
+      21H18V24H21V21ZM21 
+      24H18V27H21V24Z"
+                      fill="transparent"
+                    />
+                    <path
+                      class="core"
+                      d="M18 
+      15H15V18H18V15ZM21 
+      15H24V18H21V15ZM21 
+      15H18V18H21V15ZM21 
+      12H18V15H21V12ZM21 
+      18H18V21H21V18Z"
+                      fill="transparent"
+                    />
+                  </g>
                   <path
-                    class="contour"
-                    d="M12
-        6H9V9H12V6ZM15 
-        6H12V9H15V6ZM9 
-        9H6V12H9V9ZM9 
-        12H6V15H9V12ZM9 
-        15H6V18H9V15ZM18 
-        6H15V9H18V6ZM12 
-        18H9V21H12V18ZM15 
-        21H12V24H15V21ZM18 
-        24H15V27H18V24ZM27 
-        6H30V9H27V6ZM24 
-        6H27V9H24V6ZM30 
-        9H33V12H30V9ZM30 
-        12H33V15H30V12ZM30 
-        15H33V18H30V15ZM21 
-        6H24V9H21V6ZM27 
-        18H30V21H27V18ZM24 
-        21H27V24H24V21ZM21 
-        24H24V27H21V24ZM21 
-        27H18V30H21V27ZM21 
-        9H18V12H21V9Z"
-                    fill="black"
-                  />
-                  <path
-                    class="main-body"
-                    d="M12 
-        9H9V12H12V9ZM15 
-        12H12V15H15V12ZM18 
-        9H15V12H18V9ZM12 
-        15H9V18H12V15ZM15 
-        15H12V18H15V15ZM15 
-        18H12V21H15V18ZM18 
-        12H15V15H18V12ZM18 
-        21H15V24H18V21ZM18 
-        18H15V21H18V18ZM27 
-        9H30V12H27V9ZM24 
-        9H27V12H24V9ZM27 
-        12H30V15H27V12ZM24 
-        12H27V15H24V12ZM21 
-        9H24V12H21V9ZM27 
-        15H30V18H27V15ZM24 
-        15H27V18H24V15ZM24 
-        18H27V21H24V18ZM21 
-        12H24V15H21V12ZM21 
-        21H24V24H21V21ZM21 
-        18H24V21H21V18ZM21 
-        21H18V24H21V21ZM21 
-        24H18V27H21V24Z"
+                    class="sparks"
+                    d="M36 
+      13H39V16H36V13ZM27
+      27H30V30H27V27ZM18 
+      33H21V36H18V33ZM9 
+      27H12V30H9V27ZM24 
+      0H27V3H24V0ZM33 
+      3H36V6H33V3ZM3 
+      3H6V6H3V3ZM12 
+      0H15V3H12V0ZM0 
+      13H3V16H0V13Z"
                     fill="transparent"
                   />
-                  <path
-                    class="core"
-                    d="M18 
-        15H15V18H18V15ZM21 
-        15H24V18H21V15ZM21 
-        15H18V18H21V15ZM21 
-        12H18V15H21V12ZM21 
-        18H18V21H21V18Z"
-                    fill="transparent"
-                  />
-                </g>
-                <path
-                  class="sparks"
-                  d="M36 
-        13H39V16H36V13ZM27
-        27H30V30H27V27ZM18 
-        33H21V36H18V33ZM9 
-        27H12V30H9V27ZM24 
-        0H27V3H24V0ZM33 
-        3H36V6H33V3ZM3 
-        3H6V6H3V3ZM12 
-        0H15V3H12V0ZM0 
-        13H3V16H0V13Z"
-                  fill="transparent"
-                />
-              </svg>
-            </button>
-          </section>
+                </svg>
+              </button>
+              <button class="button card__like-button animated" type="button">
+                <span class="button__text">Like</span>
+              </button>
+            </div>
+          </div>
         </article>
         <article class="card">
-          <h3 class="card__title">2 спринт: О тех, кто рядом</h3>
+          <h2 class="card__title">2 спринт: О тех, кто рядом</h2>
           <div class="card__image-container">
             <img
               class="card__image hue-rotate"
@@ -491,7 +507,7 @@
             />
             <p>care</p>
           </div>
-          <section class="card__content">
+          <div class="card__content">
             <p class="card__text">
               Всё это время вы были не одиноки (хотя, возможно, иногда и
               чувствовали, что одни против целого мира). Вас окружали
@@ -507,101 +523,105 @@
               тяготы и муки, за которые миллионы человек получают зарплату прямо
               сейчас.
             </p>
-            <button class="card__like-button animated" type="button">
-              <span class="button__text">Like</span>
-              <svg
-                class="card__like-icon"
-                width="39"
-                height="36"
-                viewBox="0 0 39 36"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-              >
-                <g class="heart">
+            <div class="card__like-container">
+              <button class="card__icon-button" type="button">
+                <svg
+                  class="card__like-icon"
+                  width="39"
+                  height="36"
+                  viewBox="0 0 39 36"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                >
+                  <g class="heart">
+                    <path
+                      class="contour"
+                      d="M12
+      6H9V9H12V6ZM15 
+      6H12V9H15V6ZM9 
+      9H6V12H9V9ZM9 
+      12H6V15H9V12ZM9 
+      15H6V18H9V15ZM18 
+      6H15V9H18V6ZM12 
+      18H9V21H12V18ZM15 
+      21H12V24H15V21ZM18 
+      24H15V27H18V24ZM27 
+      6H30V9H27V6ZM24 
+      6H27V9H24V6ZM30 
+      9H33V12H30V9ZM30 
+      12H33V15H30V12ZM30 
+      15H33V18H30V15ZM21 
+      6H24V9H21V6ZM27 
+      18H30V21H27V18ZM24 
+      21H27V24H24V21ZM21 
+      24H24V27H21V24ZM21 
+      27H18V30H21V27ZM21 
+      9H18V12H21V9Z"
+                      fill="black"
+                    />
+                    <path
+                      class="main-body"
+                      d="M12 
+      9H9V12H12V9ZM15 
+      12H12V15H15V12ZM18 
+      9H15V12H18V9ZM12 
+      15H9V18H12V15ZM15 
+      15H12V18H15V15ZM15 
+      18H12V21H15V18ZM18 
+      12H15V15H18V12ZM18 
+      21H15V24H18V21ZM18 
+      18H15V21H18V18ZM27 
+      9H30V12H27V9ZM24 
+      9H27V12H24V9ZM27 
+      12H30V15H27V12ZM24 
+      12H27V15H24V12ZM21 
+      9H24V12H21V9ZM27 
+      15H30V18H27V15ZM24 
+      15H27V18H24V15ZM24 
+      18H27V21H24V18ZM21 
+      12H24V15H21V12ZM21 
+      21H24V24H21V21ZM21 
+      18H24V21H21V18ZM21 
+      21H18V24H21V21ZM21 
+      24H18V27H21V24Z"
+                      fill="transparent"
+                    />
+                    <path
+                      class="core"
+                      d="M18 
+      15H15V18H18V15ZM21 
+      15H24V18H21V15ZM21 
+      15H18V18H21V15ZM21 
+      12H18V15H21V12ZM21 
+      18H18V21H21V18Z"
+                      fill="transparent"
+                    />
+                  </g>
                   <path
-                    class="contour"
-                    d="M12
-        6H9V9H12V6ZM15 
-        6H12V9H15V6ZM9 
-        9H6V12H9V9ZM9 
-        12H6V15H9V12ZM9 
-        15H6V18H9V15ZM18 
-        6H15V9H18V6ZM12 
-        18H9V21H12V18ZM15 
-        21H12V24H15V21ZM18 
-        24H15V27H18V24ZM27 
-        6H30V9H27V6ZM24 
-        6H27V9H24V6ZM30 
-        9H33V12H30V9ZM30 
-        12H33V15H30V12ZM30 
-        15H33V18H30V15ZM21 
-        6H24V9H21V6ZM27 
-        18H30V21H27V18ZM24 
-        21H27V24H24V21ZM21 
-        24H24V27H21V24ZM21 
-        27H18V30H21V27ZM21 
-        9H18V12H21V9Z"
-                    fill="black"
-                  />
-                  <path
-                    class="main-body"
-                    d="M12 
-        9H9V12H12V9ZM15 
-        12H12V15H15V12ZM18 
-        9H15V12H18V9ZM12 
-        15H9V18H12V15ZM15 
-        15H12V18H15V15ZM15 
-        18H12V21H15V18ZM18 
-        12H15V15H18V12ZM18 
-        21H15V24H18V21ZM18 
-        18H15V21H18V18ZM27 
-        9H30V12H27V9ZM24 
-        9H27V12H24V9ZM27 
-        12H30V15H27V12ZM24 
-        12H27V15H24V12ZM21 
-        9H24V12H21V9ZM27 
-        15H30V18H27V15ZM24 
-        15H27V18H24V15ZM24 
-        18H27V21H24V18ZM21 
-        12H24V15H21V12ZM21 
-        21H24V24H21V21ZM21 
-        18H24V21H21V18ZM21 
-        21H18V24H21V21ZM21 
-        24H18V27H21V24Z"
+                    class="sparks"
+                    d="M36 
+      13H39V16H36V13ZM27
+      27H30V30H27V27ZM18 
+      33H21V36H18V33ZM9 
+      27H12V30H9V27ZM24 
+      0H27V3H24V0ZM33 
+      3H36V6H33V3ZM3 
+      3H6V6H3V3ZM12 
+      0H15V3H12V0ZM0 
+      13H3V16H0V13Z"
                     fill="transparent"
                   />
-                  <path
-                    class="core"
-                    d="M18 
-        15H15V18H18V15ZM21 
-        15H24V18H21V15ZM21 
-        15H18V18H21V15ZM21 
-        12H18V15H21V12ZM21 
-        18H18V21H21V18Z"
-                    fill="transparent"
-                  />
-                </g>
-                <path
-                  class="sparks"
-                  d="M36 
-        13H39V16H36V13ZM27
-        27H30V30H27V27ZM18 
-        33H21V36H18V33ZM9 
-        27H12V30H9V27ZM24 
-        0H27V3H24V0ZM33 
-        3H36V6H33V3ZM3 
-        3H6V6H3V3ZM12 
-        0H15V3H12V0ZM0 
-        13H3V16H0V13Z"
-                  fill="transparent"
-                />
-              </svg>
-            </button>
-          </section>
+                </svg>
+              </button>
+              <button class="button card__like-button animated" type="button">
+                <span class="button__text">Like</span>
+              </button>
+            </div>
+          </div>
         </article>
         <article class="card">
-          <h3 class="card__title">3 спринт: Обходные стратегии</h3>
+          <h2 class="card__title">3 спринт: Обходные стратегии</h2>
           <div class="card__image-container">
             <img
               class="card__image brightness"
@@ -610,7 +630,7 @@
             />
             <p>&lt;support&gt;</p>
           </div>
-          <section class="card__content">
+          <div class="card__content">
             <p class="card__text">
               На этом курсе вы постоянно решали разные задачи. В какой-то момент
               вам могло показаться, что решения просто иссякли. Значит, пришло
@@ -624,101 +644,105 @@
               сравнивать себя с ними. Каждый из нас уникален и у каждого свой
               путь.
             </p>
-            <button class="card__like-button animated" type="button">
-              <span class="button__text">Like</span>
-              <svg
-                class="card__like-icon"
-                width="39"
-                height="36"
-                viewBox="0 0 39 36"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-              >
-                <g class="heart">
+            <div class="card__like-container">
+              <button class="card__icon-button" type="button">
+                <svg
+                  class="card__like-icon"
+                  width="39"
+                  height="36"
+                  viewBox="0 0 39 36"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                >
+                  <g class="heart">
+                    <path
+                      class="contour"
+                      d="M12
+      6H9V9H12V6ZM15 
+      6H12V9H15V6ZM9 
+      9H6V12H9V9ZM9 
+      12H6V15H9V12ZM9 
+      15H6V18H9V15ZM18 
+      6H15V9H18V6ZM12 
+      18H9V21H12V18ZM15 
+      21H12V24H15V21ZM18 
+      24H15V27H18V24ZM27 
+      6H30V9H27V6ZM24 
+      6H27V9H24V6ZM30 
+      9H33V12H30V9ZM30 
+      12H33V15H30V12ZM30 
+      15H33V18H30V15ZM21 
+      6H24V9H21V6ZM27 
+      18H30V21H27V18ZM24 
+      21H27V24H24V21ZM21 
+      24H24V27H21V24ZM21 
+      27H18V30H21V27ZM21 
+      9H18V12H21V9Z"
+                      fill="black"
+                    />
+                    <path
+                      class="main-body"
+                      d="M12 
+      9H9V12H12V9ZM15 
+      12H12V15H15V12ZM18 
+      9H15V12H18V9ZM12 
+      15H9V18H12V15ZM15 
+      15H12V18H15V15ZM15 
+      18H12V21H15V18ZM18 
+      12H15V15H18V12ZM18 
+      21H15V24H18V21ZM18 
+      18H15V21H18V18ZM27 
+      9H30V12H27V9ZM24 
+      9H27V12H24V9ZM27 
+      12H30V15H27V12ZM24 
+      12H27V15H24V12ZM21 
+      9H24V12H21V9ZM27 
+      15H30V18H27V15ZM24 
+      15H27V18H24V15ZM24 
+      18H27V21H24V18ZM21 
+      12H24V15H21V12ZM21 
+      21H24V24H21V21ZM21 
+      18H24V21H21V18ZM21 
+      21H18V24H21V21ZM21 
+      24H18V27H21V24Z"
+                      fill="transparent"
+                    />
+                    <path
+                      class="core"
+                      d="M18 
+      15H15V18H18V15ZM21 
+      15H24V18H21V15ZM21 
+      15H18V18H21V15ZM21 
+      12H18V15H21V12ZM21 
+      18H18V21H21V18Z"
+                      fill="transparent"
+                    />
+                  </g>
                   <path
-                    class="contour"
-                    d="M12
-        6H9V9H12V6ZM15 
-        6H12V9H15V6ZM9 
-        9H6V12H9V9ZM9 
-        12H6V15H9V12ZM9 
-        15H6V18H9V15ZM18 
-        6H15V9H18V6ZM12 
-        18H9V21H12V18ZM15 
-        21H12V24H15V21ZM18 
-        24H15V27H18V24ZM27 
-        6H30V9H27V6ZM24 
-        6H27V9H24V6ZM30 
-        9H33V12H30V9ZM30 
-        12H33V15H30V12ZM30 
-        15H33V18H30V15ZM21 
-        6H24V9H21V6ZM27 
-        18H30V21H27V18ZM24 
-        21H27V24H24V21ZM21 
-        24H24V27H21V24ZM21 
-        27H18V30H21V27ZM21 
-        9H18V12H21V9Z"
-                    fill="black"
-                  />
-                  <path
-                    class="main-body"
-                    d="M12 
-        9H9V12H12V9ZM15 
-        12H12V15H15V12ZM18 
-        9H15V12H18V9ZM12 
-        15H9V18H12V15ZM15 
-        15H12V18H15V15ZM15 
-        18H12V21H15V18ZM18 
-        12H15V15H18V12ZM18 
-        21H15V24H18V21ZM18 
-        18H15V21H18V18ZM27 
-        9H30V12H27V9ZM24 
-        9H27V12H24V9ZM27 
-        12H30V15H27V12ZM24 
-        12H27V15H24V12ZM21 
-        9H24V12H21V9ZM27 
-        15H30V18H27V15ZM24 
-        15H27V18H24V15ZM24 
-        18H27V21H24V18ZM21 
-        12H24V15H21V12ZM21 
-        21H24V24H21V21ZM21 
-        18H24V21H21V18ZM21 
-        21H18V24H21V21ZM21 
-        24H18V27H21V24Z"
+                    class="sparks"
+                    d="M36 
+      13H39V16H36V13ZM27
+      27H30V30H27V27ZM18 
+      33H21V36H18V33ZM9 
+      27H12V30H9V27ZM24 
+      0H27V3H24V0ZM33 
+      3H36V6H33V3ZM3 
+      3H6V6H3V3ZM12 
+      0H15V3H12V0ZM0 
+      13H3V16H0V13Z"
                     fill="transparent"
                   />
-                  <path
-                    class="core"
-                    d="M18 
-        15H15V18H18V15ZM21 
-        15H24V18H21V15ZM21 
-        15H18V18H21V15ZM21 
-        12H18V15H21V12ZM21 
-        18H18V21H21V18Z"
-                    fill="transparent"
-                  />
-                </g>
-                <path
-                  class="sparks"
-                  d="M36 
-        13H39V16H36V13ZM27
-        27H30V30H27V27ZM18 
-        33H21V36H18V33ZM9 
-        27H12V30H9V27ZM24 
-        0H27V3H24V0ZM33 
-        3H36V6H33V3ZM3 
-        3H6V6H3V3ZM12 
-        0H15V3H12V0ZM0 
-        13H3V16H0V13Z"
-                  fill="transparent"
-                />
-              </svg>
-            </button>
-          </section>
+                </svg>
+              </button>
+              <button class="button card__like-button animated" type="button">
+                <span class="button__text">Like</span>
+              </button>
+            </div>
+          </div>
         </article>
         <article class="card">
-          <h3 class="card__title">3 спринт: Когда опускаются руки</h3>
+          <h2 class="card__title">3 спринт: Когда опускаются руки</h2>
           <div class="card__image-container">
             <img
               class="card__image grayscale"
@@ -727,7 +751,7 @@
             />
             <p>&lt;lifes-style: none;&gt;</p>
           </div>
-          <section class="card__content">
+          <div class="card__content">
             <p class="card__text">
               Во время учёбы часто возникает чувство, когда не знаешь, за что
               хвататься. Вроде и проектную пора сдавать, и задачи хочется
@@ -739,101 +763,105 @@
               Что-ж, определённо, в упадочные моменты, меня очень мотировал свет
               в конце тунеля.
             </p>
-            <button class="card__like-button animated" type="button">
-              <span class="button__text">Like</span>
-              <svg
-                class="card__like-icon"
-                width="39"
-                height="36"
-                viewBox="0 0 39 36"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-              >
-                <g class="heart">
+            <div class="card__like-container">
+              <button class="card__icon-button" type="button">
+                <svg
+                  class="card__like-icon"
+                  width="39"
+                  height="36"
+                  viewBox="0 0 39 36"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                >
+                  <g class="heart">
+                    <path
+                      class="contour"
+                      d="M12
+      6H9V9H12V6ZM15 
+      6H12V9H15V6ZM9 
+      9H6V12H9V9ZM9 
+      12H6V15H9V12ZM9 
+      15H6V18H9V15ZM18 
+      6H15V9H18V6ZM12 
+      18H9V21H12V18ZM15 
+      21H12V24H15V21ZM18 
+      24H15V27H18V24ZM27 
+      6H30V9H27V6ZM24 
+      6H27V9H24V6ZM30 
+      9H33V12H30V9ZM30 
+      12H33V15H30V12ZM30 
+      15H33V18H30V15ZM21 
+      6H24V9H21V6ZM27 
+      18H30V21H27V18ZM24 
+      21H27V24H24V21ZM21 
+      24H24V27H21V24ZM21 
+      27H18V30H21V27ZM21 
+      9H18V12H21V9Z"
+                      fill="black"
+                    />
+                    <path
+                      class="main-body"
+                      d="M12 
+      9H9V12H12V9ZM15 
+      12H12V15H15V12ZM18 
+      9H15V12H18V9ZM12 
+      15H9V18H12V15ZM15 
+      15H12V18H15V15ZM15 
+      18H12V21H15V18ZM18 
+      12H15V15H18V12ZM18 
+      21H15V24H18V21ZM18 
+      18H15V21H18V18ZM27 
+      9H30V12H27V9ZM24 
+      9H27V12H24V9ZM27 
+      12H30V15H27V12ZM24 
+      12H27V15H24V12ZM21 
+      9H24V12H21V9ZM27 
+      15H30V18H27V15ZM24 
+      15H27V18H24V15ZM24 
+      18H27V21H24V18ZM21 
+      12H24V15H21V12ZM21 
+      21H24V24H21V21ZM21 
+      18H24V21H21V18ZM21 
+      21H18V24H21V21ZM21 
+      24H18V27H21V24Z"
+                      fill="transparent"
+                    />
+                    <path
+                      class="core"
+                      d="M18 
+      15H15V18H18V15ZM21 
+      15H24V18H21V15ZM21 
+      15H18V18H21V15ZM21 
+      12H18V15H21V12ZM21 
+      18H18V21H21V18Z"
+                      fill="transparent"
+                    />
+                  </g>
                   <path
-                    class="contour"
-                    d="M12
-        6H9V9H12V6ZM15 
-        6H12V9H15V6ZM9 
-        9H6V12H9V9ZM9 
-        12H6V15H9V12ZM9 
-        15H6V18H9V15ZM18 
-        6H15V9H18V6ZM12 
-        18H9V21H12V18ZM15 
-        21H12V24H15V21ZM18 
-        24H15V27H18V24ZM27 
-        6H30V9H27V6ZM24 
-        6H27V9H24V6ZM30 
-        9H33V12H30V9ZM30 
-        12H33V15H30V12ZM30 
-        15H33V18H30V15ZM21 
-        6H24V9H21V6ZM27 
-        18H30V21H27V18ZM24 
-        21H27V24H24V21ZM21 
-        24H24V27H21V24ZM21 
-        27H18V30H21V27ZM21 
-        9H18V12H21V9Z"
-                    fill="black"
-                  />
-                  <path
-                    class="main-body"
-                    d="M12 
-        9H9V12H12V9ZM15 
-        12H12V15H15V12ZM18 
-        9H15V12H18V9ZM12 
-        15H9V18H12V15ZM15 
-        15H12V18H15V15ZM15 
-        18H12V21H15V18ZM18 
-        12H15V15H18V12ZM18 
-        21H15V24H18V21ZM18 
-        18H15V21H18V18ZM27 
-        9H30V12H27V9ZM24 
-        9H27V12H24V9ZM27 
-        12H30V15H27V12ZM24 
-        12H27V15H24V12ZM21 
-        9H24V12H21V9ZM27 
-        15H30V18H27V15ZM24 
-        15H27V18H24V15ZM24 
-        18H27V21H24V18ZM21 
-        12H24V15H21V12ZM21 
-        21H24V24H21V21ZM21 
-        18H24V21H21V18ZM21 
-        21H18V24H21V21ZM21 
-        24H18V27H21V24Z"
+                    class="sparks"
+                    d="M36 
+      13H39V16H36V13ZM27
+      27H30V30H27V27ZM18 
+      33H21V36H18V33ZM9 
+      27H12V30H9V27ZM24 
+      0H27V3H24V0ZM33 
+      3H36V6H33V3ZM3 
+      3H6V6H3V3ZM12 
+      0H15V3H12V0ZM0 
+      13H3V16H0V13Z"
                     fill="transparent"
                   />
-                  <path
-                    class="core"
-                    d="M18 
-        15H15V18H18V15ZM21 
-        15H24V18H21V15ZM21 
-        15H18V18H21V15ZM21 
-        12H18V15H21V12ZM21 
-        18H18V21H21V18Z"
-                    fill="transparent"
-                  />
-                </g>
-                <path
-                  class="sparks"
-                  d="M36 
-        13H39V16H36V13ZM27
-        27H30V30H27V27ZM18 
-        33H21V36H18V33ZM9 
-        27H12V30H9V27ZM24 
-        0H27V3H24V0ZM33 
-        3H36V6H33V3ZM3 
-        3H6V6H3V3ZM12 
-        0H15V3H12V0ZM0 
-        13H3V16H0V13Z"
-                  fill="transparent"
-                />
-              </svg>
-            </button>
-          </section>
+                </svg>
+              </button>
+              <button class="button card__like-button animated" type="button">
+                <span class="button__text">Like</span>
+              </button>
+            </div>
+          </div>
         </article>
         <article class="card">
-          <h3 class="card__title">«Сейчас я здесь»</h3>
+          <h2 class="card__title">«Сейчас я здесь»</h2>
           <div class="card__image-container">
             <img
               class="card__image invert"
@@ -842,7 +870,7 @@
             />
             <p>&lt;experience&gt;</p>
           </div>
-          <section class="card__content">
+          <div class="card__content">
             <p class="card__text">
               Сейчас вы уже очень много знаете о вёрстке. Но это только начало.
               Во-первых, впереди ещё много материала про «красотищу». Во-вторых,
@@ -855,117 +883,671 @@
               Летим всё быстрее и завихряемся в бесконечном пространстве IT.
               Главное не сдаваться и всегда помнить, ради чего я здесь.
             </p>
-            <button class="card__like-button animated" type="button">
-              <span class="button__text">Like</span>
-              <svg
-                class="card__like-icon"
-                width="39"
-                height="36"
-                viewBox="0 0 39 36"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-              >
-                <g class="heart">
+            <div class="card__like-container">
+              <button class="card__icon-button" type="button">
+                <svg
+                  class="card__like-icon"
+                  width="39"
+                  height="36"
+                  viewBox="0 0 39 36"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                >
+                  <g class="heart">
+                    <path
+                      class="contour"
+                      d="M12
+      6H9V9H12V6ZM15 
+      6H12V9H15V6ZM9 
+      9H6V12H9V9ZM9 
+      12H6V15H9V12ZM9 
+      15H6V18H9V15ZM18 
+      6H15V9H18V6ZM12 
+      18H9V21H12V18ZM15 
+      21H12V24H15V21ZM18 
+      24H15V27H18V24ZM27 
+      6H30V9H27V6ZM24 
+      6H27V9H24V6ZM30 
+      9H33V12H30V9ZM30 
+      12H33V15H30V12ZM30 
+      15H33V18H30V15ZM21 
+      6H24V9H21V6ZM27 
+      18H30V21H27V18ZM24 
+      21H27V24H24V21ZM21 
+      24H24V27H21V24ZM21 
+      27H18V30H21V27ZM21 
+      9H18V12H21V9Z"
+                      fill="black"
+                    />
+                    <path
+                      class="main-body"
+                      d="M12 
+      9H9V12H12V9ZM15 
+      12H12V15H15V12ZM18 
+      9H15V12H18V9ZM12 
+      15H9V18H12V15ZM15 
+      15H12V18H15V15ZM15 
+      18H12V21H15V18ZM18 
+      12H15V15H18V12ZM18 
+      21H15V24H18V21ZM18 
+      18H15V21H18V18ZM27 
+      9H30V12H27V9ZM24 
+      9H27V12H24V9ZM27 
+      12H30V15H27V12ZM24 
+      12H27V15H24V12ZM21 
+      9H24V12H21V9ZM27 
+      15H30V18H27V15ZM24 
+      15H27V18H24V15ZM24 
+      18H27V21H24V18ZM21 
+      12H24V15H21V12ZM21 
+      21H24V24H21V21ZM21 
+      18H24V21H21V18ZM21 
+      21H18V24H21V21ZM21 
+      24H18V27H21V24Z"
+                      fill="transparent"
+                    />
+                    <path
+                      class="core"
+                      d="M18 
+      15H15V18H18V15ZM21 
+      15H24V18H21V15ZM21 
+      15H18V18H21V15ZM21 
+      12H18V15H21V12ZM21 
+      18H18V21H21V18Z"
+                      fill="transparent"
+                    />
+                  </g>
                   <path
-                    class="contour"
-                    d="M12
-        6H9V9H12V6ZM15 
-        6H12V9H15V6ZM9 
-        9H6V12H9V9ZM9 
-        12H6V15H9V12ZM9 
-        15H6V18H9V15ZM18 
-        6H15V9H18V6ZM12 
-        18H9V21H12V18ZM15 
-        21H12V24H15V21ZM18 
-        24H15V27H18V24ZM27 
-        6H30V9H27V6ZM24 
-        6H27V9H24V6ZM30 
-        9H33V12H30V9ZM30 
-        12H33V15H30V12ZM30 
-        15H33V18H30V15ZM21 
-        6H24V9H21V6ZM27 
-        18H30V21H27V18ZM24 
-        21H27V24H24V21ZM21 
-        24H24V27H21V24ZM21 
-        27H18V30H21V27ZM21 
-        9H18V12H21V9Z"
-                    fill="black"
-                  />
-                  <path
-                    class="main-body"
-                    d="M12 
-        9H9V12H12V9ZM15 
-        12H12V15H15V12ZM18 
-        9H15V12H18V9ZM12 
-        15H9V18H12V15ZM15 
-        15H12V18H15V15ZM15 
-        18H12V21H15V18ZM18 
-        12H15V15H18V12ZM18 
-        21H15V24H18V21ZM18 
-        18H15V21H18V18ZM27 
-        9H30V12H27V9ZM24 
-        9H27V12H24V9ZM27 
-        12H30V15H27V12ZM24 
-        12H27V15H24V12ZM21 
-        9H24V12H21V9ZM27 
-        15H30V18H27V15ZM24 
-        15H27V18H24V15ZM24 
-        18H27V21H24V18ZM21 
-        12H24V15H21V12ZM21 
-        21H24V24H21V21ZM21 
-        18H24V21H21V18ZM21 
-        21H18V24H21V21ZM21 
-        24H18V27H21V24Z"
+                    class="sparks"
+                    d="M36 
+      13H39V16H36V13ZM27
+      27H30V30H27V27ZM18 
+      33H21V36H18V33ZM9 
+      27H12V30H9V27ZM24 
+      0H27V3H24V0ZM33 
+      3H36V6H33V3ZM3 
+      3H6V6H3V3ZM12 
+      0H15V3H12V0ZM0 
+      13H3V16H0V13Z"
                     fill="transparent"
                   />
-                  <path
-                    class="core"
-                    d="M18 
-        15H15V18H18V15ZM21 
-        15H24V18H21V15ZM21 
-        15H18V18H21V15ZM21 
-        12H18V15H21V12ZM21 
-        18H18V21H21V18Z"
-                    fill="transparent"
-                  />
-                </g>
-                <path
-                  class="sparks"
-                  d="M36 
-        13H39V16H36V13ZM27
-        27H30V30H27V27ZM18 
-        33H21V36H18V33ZM9 
-        27H12V30H9V27ZM24 
-        0H27V3H24V0ZM33 
-        3H36V6H33V3ZM3 
-        3H6V6H3V3ZM12 
-        0H15V3H12V0ZM0 
-        13H3V16H0V13Z"
-                  fill="transparent"
-                />
-              </svg>
-            </button>
-          </section>
+                </svg>
+              </button>
+              <button class="button card__like-button animated" type="button">
+                <span class="button__text">Like</span>
+              </button>
+            </div>
+          </div>
         </article>
       </section>
       <button
-        class="footer__button animated"
+        class="button footer__button animated"
         type="button"
         onclick="window.dialog.showModal()"
         aria-label="Нажмите ок чтобы продолжить"
       >
-        <img
-          class="footer__floppy"
-          src="./svg/floppy.svg"
-          alt="Картинка дискеты"
-        />
-        <span>Сохранить на память</span>
+        <svg
+          class="floppy"
+          width="39"
+          height="39"
+          viewBox="0 0 39 39"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g>
+            <rect width="3.00001" height="3" fill="black" />
+            <rect y="3" width="3.00001" height="3" fill="black" />
+            <rect y="6" width="3.00001" height="3" fill="black" />
+            <rect y="9" width="3.00001" height="3" fill="black" />
+            <rect y="12" width="3.00001" height="3" fill="black" />
+            <rect y="15" width="3.00001" height="3" fill="black" />
+            <rect y="18" width="3.00001" height="3" fill="black" />
+            <rect y="21" width="3.00001" height="3" fill="black" />
+            <rect y="24" width="3.00001" height="3" fill="black" />
+            <rect y="27" width="3.00001" height="3" fill="black" />
+            <rect y="30" width="3.00001" height="3" fill="black" />
+            <rect y="33" width="3.00001" height="3" fill="black" />
+            <rect y="36" width="3.00001" height="3" fill="black" />
+            <rect
+              x="33"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 33 0)"
+              fill="black"
+            />
+            <rect
+              x="30.0031"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 30.0031 0)"
+              fill="black"
+            />
+            <rect
+              x="26.9998"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 26.9998 0)"
+              fill="black"
+            />
+            <rect
+              x="23.9998"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 23.9998 0)"
+              fill="black"
+            />
+            <rect
+              x="20.999"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 20.999 0)"
+              fill="black"
+            />
+            <rect
+              x="17.9998"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 17.9998 0)"
+              fill="black"
+            />
+            <rect
+              x="14.999"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 14.999 0)"
+              fill="black"
+            />
+            <rect
+              x="11.9999"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 11.9999 0)"
+              fill="black"
+            />
+            <rect
+              x="8.99609"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 8.99609 0)"
+              fill="black"
+            />
+            <rect
+              x="5.99994"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 5.99994 0)"
+              fill="black"
+            />
+            <rect
+              x="36.0008"
+              y="3"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 36.0008 3)"
+              fill="black"
+            />
+            <rect
+              x="8.99609"
+              y="6"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 8.99609 6)"
+              fill="black"
+            />
+            <rect
+              x="8.99609"
+              y="3"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 8.99609 3)"
+              fill="black"
+            />
+            <rect
+              x="8.99609"
+              y="9"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 8.99609 9)"
+              fill="black"
+            />
+            <rect
+              x="30.0031"
+              y="6"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 30.0031 6)"
+              fill="black"
+            />
+            <rect
+              x="30.0031"
+              y="3"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 30.0031 3)"
+              fill="black"
+            />
+            <rect
+              x="30.0031"
+              y="9"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 30.0031 9)"
+              fill="black"
+            />
+            <rect
+              x="23.9998"
+              y="6"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 23.9998 6)"
+              fill="black"
+            />
+            <rect
+              x="23.9998"
+              y="3"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 23.9998 3)"
+              fill="black"
+            />
+            <rect
+              x="23.9998"
+              y="9"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 23.9998 9)"
+              fill="black"
+            />
+            <rect
+              x="30.0031"
+              y="12"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 30.0031 12)"
+              fill="black"
+            />
+            <rect
+              x="26.9998"
+              y="12"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 26.9998 12)"
+              fill="black"
+            />
+            <rect
+              x="23.9998"
+              y="12"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 23.9998 12)"
+              fill="black"
+            />
+            <rect
+              x="20.999"
+              y="12"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 20.999 12)"
+              fill="black"
+            />
+            <rect
+              x="17.9998"
+              y="12"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 17.9998 12)"
+              fill="black"
+            />
+            <rect
+              x="14.999"
+              y="12"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 14.999 12)"
+              fill="black"
+            />
+            <rect
+              x="11.9999"
+              y="12"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 11.9999 12)"
+              fill="black"
+            />
+            <rect
+              x="8.99609"
+              y="12"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 8.99609 12)"
+              fill="black"
+            />
+            <rect
+              x="33"
+              y="21"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 33 21)"
+              fill="black"
+            />
+            <rect
+              x="30.0031"
+              y="21"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 30.0031 21)"
+              fill="black"
+            />
+            <rect
+              x="26.9998"
+              y="21"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 26.9998 21)"
+              fill="black"
+            />
+            <rect
+              x="23.9998"
+              y="21"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 23.9998 21)"
+              fill="black"
+            />
+            <rect
+              x="20.999"
+              y="21"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 20.999 21)"
+              fill="black"
+            />
+            <rect
+              x="17.9998"
+              y="21"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 17.9998 21)"
+              fill="black"
+            />
+            <rect
+              x="14.999"
+              y="21"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 14.999 21)"
+              fill="black"
+            />
+            <rect
+              x="11.9999"
+              y="21"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 11.9999 21)"
+              fill="black"
+            />
+            <rect
+              x="8.99609"
+              y="21"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 8.99609 21)"
+              fill="black"
+            />
+            <rect
+              x="33"
+              y="24"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 33 24)"
+              fill="black"
+            />
+            <rect
+              x="8.99609"
+              y="24"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 8.99609 24)"
+              fill="black"
+            />
+            <rect
+              x="33"
+              y="27"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 33 27)"
+              fill="black"
+            />
+            <rect
+              x="8.99609"
+              y="27"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 8.99609 27)"
+              fill="black"
+            />
+            <rect
+              x="33"
+              y="30"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 33 30)"
+              fill="black"
+            />
+            <rect
+              x="8.99609"
+              y="30"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 8.99609 30)"
+              fill="black"
+            />
+            <rect
+              x="8.99609"
+              y="33"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 8.99609 33)"
+              fill="black"
+            />
+            <rect
+              x="33"
+              y="33"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 33 33)"
+              fill="black"
+            />
+            <rect
+              x="36.0008"
+              y="36"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 36.0008 36)"
+              fill="black"
+            />
+            <rect
+              x="33"
+              y="36"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 33 36)"
+              fill="black"
+            />
+            <rect
+              x="30.0031"
+              y="36"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 30.0031 36)"
+              fill="black"
+            />
+            <rect
+              x="26.9998"
+              y="36"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 26.9998 36)"
+              fill="black"
+            />
+            <rect
+              x="23.9998"
+              y="36"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 23.9998 36)"
+              fill="black"
+            />
+            <rect
+              x="20.999"
+              y="36"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 20.999 36)"
+              fill="black"
+            />
+            <rect
+              x="17.9998"
+              y="36"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 17.9998 36)"
+              fill="black"
+            />
+            <rect
+              x="14.999"
+              y="36"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 14.999 36)"
+              fill="black"
+            />
+            <rect
+              x="11.9999"
+              y="36"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 11.9999 36)"
+              fill="black"
+            />
+            <rect
+              x="8.99609"
+              y="36"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 8.99609 36)"
+              fill="black"
+            />
+            <rect
+              x="5.99994"
+              y="36"
+              width="3"
+              height="3.00001"
+              transform="rotate(90 5.99994 36)"
+              fill="black"
+            />
+            <rect
+              x="39"
+              y="39"
+              width="3.00001"
+              height="3"
+              transform="rotate(-180 39 39)"
+              fill="black"
+            />
+            <rect
+              x="39"
+              y="36"
+              width="3.00001"
+              height="3"
+              transform="rotate(-180 39 36)"
+              fill="black"
+            />
+            <rect
+              x="39"
+              y="33"
+              width="3.00001"
+              height="3"
+              transform="rotate(-180 39 33)"
+              fill="black"
+            />
+            <rect
+              x="39"
+              y="30"
+              width="3.00001"
+              height="3"
+              transform="rotate(-180 39 30)"
+              fill="black"
+            />
+            <rect
+              x="39"
+              y="27"
+              width="3.00001"
+              height="3"
+              transform="rotate(-180 39 27)"
+              fill="black"
+            />
+            <rect
+              x="39"
+              y="24"
+              width="3.00001"
+              height="3"
+              transform="rotate(-180 39 24)"
+              fill="black"
+            />
+            <rect
+              x="39"
+              y="21"
+              width="3.00001"
+              height="3"
+              transform="rotate(-180 39 21)"
+              fill="black"
+            />
+            <rect
+              x="39"
+              y="18"
+              width="3.00001"
+              height="3"
+              transform="rotate(-180 39 18)"
+              fill="black"
+            />
+            <rect
+              x="39"
+              y="15"
+              width="3.00001"
+              height="3"
+              transform="rotate(-180 39 15)"
+              fill="black"
+            />
+            <rect
+              x="39"
+              y="12"
+              width="3.00001"
+              height="3"
+              transform="rotate(-180 39 12)"
+              fill="black"
+            />
+            <rect
+              x="39"
+              y="9"
+              width="3.00001"
+              height="3"
+              transform="rotate(-180 39 9)"
+              fill="black"
+            />
+          </g>
+        </svg>
+        <span class="button__text">Сохранить на память</span>
       </button>
       <dialog class="dialog" id="dialog">
-        <p class="dialog__text">Вставьте дискету, чтобы продолжить</p>
+        <div class="dialog__text-container">
+          <svg class="floppy">
+            <use href="./svg/floppy.svg#icon-floppy"></use>
+          </svg>
+          <p class="dialog__text">Вставьте дискету, чтобы продолжить</p>
+        </div>
         <button
-          class="dialog__button"
+          class="button dialog__button animated"
           type="button"
           onclick="window.dialog.close()"
         >
