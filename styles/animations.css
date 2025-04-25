@@ -1,33 +1,6 @@
 /* ================================
    АНИМАЦИИ СЕРДЕЧКА
    ================================ */
-@keyframes core-like {
-  from {
-    fill: transparent;
-  }
-  to {
-    fill: red;
-  }
-}
-
-@keyframes contour-like {
-  from {
-    fill: black;
-  }
-  to {
-    fill: red;
-  }
-}
-
-@keyframes main-body-like {
-  from {
-    fill: transparent;
-  }
-  to {
-    fill: red;
-  }
-}
-
 @keyframes heart-scale {
   from {
     transform: scale(1);
@@ -38,47 +11,14 @@
 }
 
 @keyframes sparks-like {
-  from {
-    fill: transparent;
+  0% {
+    opacity: 0;
   }
-  to {
-    fill: red;
+  50% {
+    opacity: 1;
   }
-}
-
-@keyframes core-hover {
-  from {
-    fill: transparent;
-  }
-  to {
-    fill: black;
-  }
-}
-
-@keyframes main-body-hover {
-  from {
-    fill: transparent;
-  }
-  to {
-    fill: black;
-  }
-}
-
-@keyframes main-body-active {
-  from {
-    fill: black;
-  }
-  to {
-    fill: red;
-  }
-}
-
-@keyframes core-active {
-  from {
-    fill: black;
-  }
-  to {
-    fill: red;
+  100% {
+    opacity: 0;
   }
 }
 
@@ -86,33 +26,53 @@
   transform-origin: center;
 }
 
+.sparks {
+  opacity: 0;
+}
+
 .card__like-icon.is-liked .core {
-  animation: core-like 0.1s 0.1s forwards;
+  fill: red;
+  transition: fill 0.3s;
 }
 .card__like-icon.is-liked .contour {
-  animation: contour-like 0.1s 0.2s forwards;
+  fill: red;
+  transition: fill 0.3s 0.06s;
 }
 .card__like-icon.is-liked .main-body {
-  animation: main-body-like 0.1s 0.3s forwards;
+  fill: red;
+  transition: fill 0.3s 0.05s;
 }
 .card__like-icon.is-liked .sparks {
-  animation: sparks-like 0.1s 0.5s backwards;
+  animation: sparks-like 0.3s 0.3s backwards;
 }
-.card__like-icon.is-liked .heart {
-  animation: heart-scale 0.1s 0.4s backwards;
+.card__like-icon.is-liked {
+  animation: heart-scale 0.3s 0.1s backwards;
 }
 
 .card__like-icon:not(.is-liked):hover .core {
-  animation: core-hover 0.1s 0.1s forwards;
+  fill: black;
+  transition: fill 0.3s;
+}
+.card__like-icon:not(.is-liked) .core {
+  fill: transparent;
+  transition: fill 0.3s 0.03s;
 }
 .card__like-icon:not(.is-liked):hover .main-body {
-  animation: main-body-hover 0.1s forwards;
+  fill: black;
+  transition: fill 0.3s 0.05s;
 }
-.card__like-icon:not(.is-liked):active .core {
-  animation: core-active 0.1s forwards;
+.card__like-icon:not(.is-liked) .main-body {
+  fill: transparent;
+  transition: fill 0.3s;
 }
-.card__like-icon:not(.is-liked):active .main-body {
-  animation: main-body-active 0.2s forwards;
+
+.card__icon-button:active .card__like-icon .core {
+  fill: red;
+  transition: fill 0.3s;
+}
+.card__icon-button:active .card__like-icon .main-body {
+  fill: red;
+  transition: fill 0.3s 0.05s;
 }
 
 /* ==================================================
